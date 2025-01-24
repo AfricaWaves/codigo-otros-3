@@ -1,12 +1,18 @@
+
 input {
   width: 500px;
   height: 40px;
   font-size: 18px;
+  margin-bottom: 20px; /* Espaciado debajo del input */
 }
 
+
 #lista-de-productos {
-  display: flex
+  display: flex;
+  gap: 20px; /* Espaciado entre productos */
+  flex-wrap: wrap; /* Permitir que los productos se acomoden en varias líneas */
 }
+
 
 .producto {
   width: 200px;
@@ -18,7 +24,8 @@ input {
   align-items: center;
 }
 
+
 .producto img {
   width: 70%;
-  height: auto
+  height: auto;
 }

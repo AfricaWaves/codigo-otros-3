@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +7,16 @@
   <link rel="stylesheet" href="filtro.css">
   <title>Filtros en JS</title>
 </head>
-
 <body>
-
   <div>
-      <input type="text" placeholder="Seleccioná un color o tipo">
-      <button>Filtrar</button>
-      <h1>Lista de productos </h1>
-      <div id="lista-de-productos">
-    </div>
+    <!-- Se añade el id al input   -->
+    <input type="text" id="input" placeholder="Selecciona un color o tipo">
+    <button>Filtrar</button>
+    <h1>Lista de productos</h1>
+    <!--  "lista-de-productos" será usado correctamente con getElementById -->
+    <div id="lista-de-productos"></div>
   </div>
-  <script src="../filtro.js"></script>
+  
+  <script src="filtro.js"></script>
 </body>
-
 </html>
